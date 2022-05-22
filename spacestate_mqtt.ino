@@ -7,10 +7,10 @@
 CRGB leds [NUM_LEDS];
 
 EspMQTTClient client(
-  "Sector ZZ9 Plural Z Alpha",
-  "Pl4n3t34rth!",
-  "10.47.45.113",
-  "Urbanum_door"
+  "SSID",
+  "WiFi password",
+  "Broker IP",
+  "Client name"
 );
 
 void setup() {
