@@ -1,48 +1,36 @@
 #include "EspMQTTClient.h"
-#include "FastLED.h"
-
-#define NUM_LEDS 25
-#define LED_PIN 27
-
-CRGB leds [NUM_LEDS];
 
 EspMQTTClient client(
   "SSID",
-  "WiFi password",
+  "Wi-Fi password",
   "Broker IP",
-  "Client name"
+  "mqtt username",
+  "mqtt password",
+  "client name",
+  1883
 );
 
-void setup() {
-  pinMode(33, INPUT);
-  FastLED.addLeds<WS2812, LED_PIN, GRB>(leds, NUM_LEDS);
-  FastLED.setBrightness(50);
+void setup()
+{
+  Serial.begin(115200);
+  pinMode(4, INPUT);
+  client.enableDebuggingMessages(); // Enable debugging messages sent to serial output
 }
 
 void onConnectionEstablished() {}
 
-void loop() { 
-    
-    client.loop();
-    
-    static bool oldstate = !digitalRead(33);
+void loop()
+{
+  client.loop();
 
-    bool state = digitalRead(33);
+  static bool oldstate = !digitalRead(2);
 
-    if (state != oldstate) {
-      client.publish("/hervanta/main_building/urbanum", state ? "on" : "off");
-    }
-    
-    if (state == 0) {
-      fill_solid(leds, NUM_LEDS, CRGB::Red);
-      FastLED.show();
-    }
+  bool state = digitalRead(4);
 
-    if (state == 1) {
-      fill_solid(leds, NUM_LEDS, CRGB::Green);
-      FastLED.show();
-    }
+  if (state != oldstate) {
+    client.publish("hervanta/main_building/urbanum", state ? "on" : "off");
+  }
 
-    oldstate = state;
-    delay(100);
+  oldstate = state;
+  delay(100);
 }

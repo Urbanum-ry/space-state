@@ -17,14 +17,17 @@ def on_message(client, userdate, message):
 
 connected = False
 
-broker = '10.47.45.113'
+broker = '192.168.1.3'
 port = 1883
-topic = '/hervanta/main_building/urbanum'
+username = 'mqtt'
+password = 'mqtt'
+topic = 'hervanta/main_building/urbanum'
 client_id = 'urbanum'
 
 client = mqttclient.Client(client_id)
 client.on_connect = on_connect
 client.on_message = on_message
+client.username_pw_set(username, password)
 
 client.connect(broker, port=port)
 
