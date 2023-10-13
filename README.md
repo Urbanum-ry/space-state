@@ -7,7 +7,7 @@ The space-state for Urbanum and other associations at the Tampere University is 
 - https://spaceapi.io/
 - https://wiki.hackerspaces.org/
 
-The implementation of the space-states at tuni is slightly throw together, and in the author's opinion incomplete. Nevertheless, this page is meant to describe the system in it's current state, as of the time of writing this, and it
+The implementation of the space-states at tuni is slightly throw together, and in the author's opinion incomplete. Nevertheless, this page is meant to describe the system in itss current state, as of the time of writing this, and the author's vision of the completed system. With the information given on this page you should be able to hook up your own room to the space-state system, given you have some experience with electronics and programming, if you don't, just ask someone who does to help, this is a fairly simple project that you should be able to set up within a few hours. Also, if you want the 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDA3MDM2OV19
+eyJoaXN0b3J5IjpbLTE5ODA2ODM1MzZdfQ==
 -->
