@@ -7,7 +7,7 @@ The space-state for Urbanum and other associations at the Tampere University is 
 - https://spaceapi.io/
 - https://wiki.hackerspaces.org/
 
-The implementation of the space-states at tuni was build by @rowan8k, which is a  
+The implementation of the space-states at tuni is slightly throw together, and in the author's opinion incomplete. Nevertheless, this page is meant to describe the system in it's current state, as of the time of writing this, and it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyNzU0NDU5XX0=
+eyJoaXN0b3J5IjpbMjA0NDA3MDM2OV19
 -->
