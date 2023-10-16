@@ -15,7 +15,7 @@ The implementation of the space-states at tuni is slightly throw together, and i
 Strictly speaking the state_mqtt.py and urbanum_bot.py could be combined into one script and the JSON file could be removed, but I made it this way to make it easier to change to the planned/desired implementation where the JSON file is hosted on a web server. 
 
 ## Planned/desired implementation
-![Diagram of planned/desired space-state system](https://raw.githubusercontent.com/Urbanum-ry/space-state/master/2023-10-13_Urbanum_Space-state_planned_desired.drawio.png)
+![Diagram of planned/desired space-state system](https://raw.githubusercontent.com/Urbanum-ry/space-state/master/assets/2023-10-13_Urbanum_Space-state_planned_desired.drawio.png)
 
 The main goal of this implementation is to make reading out the state more universal, making it so that it can be read out by anyone and thus implemented in a variety of ways. In this example the space-states would be making use of, and thus hooked up, to [SpaceAPI](https://spaceapi.io/), which is just a standardized JSON file and a directory of places using SpaceAPI. As well as a project that I wanted to do, which is making a physical map of the campus, or more likely close up maps of the basements, with the space-states of each room displayed with LED lights. 
 
@@ -31,6 +31,6 @@ The main goal of this implementation is to make reading out the state more unive
 - Microcontroller housing (3D model for D1 mini ESP8266 can be found in this repo)
 - LED ring to show current state (just for cool looks) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTgxNjc2MjksLTcyMzg3NjMzNywyNT
-M4NzI2NDgsLTE2OTEzMDMxNzUsLTkxNDQzMjcxM119
+eyJoaXN0b3J5IjpbMTgzNjg2MzUzNywtNzIzODc2MzM3LDI1Mz
+g3MjY0OCwtMTY5MTMwMzE3NSwtOTE0NDMyNzEzXX0=
 -->
