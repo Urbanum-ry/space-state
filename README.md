@@ -7,7 +7,7 @@ The space-state for Urbanum and other associations at the Tampere University is 
 - https://spaceapi.io/
 - https://wiki.hackerspaces.org/
 
-The implementation of the space-states at tuni is slightly throw together, and in my(rowan8k) opinion incomplete. Nevertheless, this page is meant to describe the system in its current state, as of the time of writing this, and the author's vision of the completed system. With the information given on this page you should be able to hook up your own room to the space-state system, given you have some experience with electronics and programming, if you don't, just ask someone who does to help, this is a fairly simple project that you should be able to set up within a few hours. Also, if you want your messages to come to the shared telegram channel, you will need credentials, which Urbanum should have for you. As well as that there is a good chance that others are already running scripts somewhere, so maybe you can run it on their clients as well(e.g. Urbanum has a raspberry pi running a few associations).
+The implementation of the space-states at tuni is slightly throw together, and in my(rowan8k's) opinion incomplete. Nevertheless, this page is meant to describe the system in its current state, as of the time of writing this, and the author's vision of the completed system. With the information given on this page you should be able to hook up your own room to the space-state system, given you have some experience with electronics and programming, if you don't, just ask someone who does to help, this is a fairly simple project that you should be able to set up within a few hours. Also, if you want your messages to come to the shared telegram channel, you will need credentials, which Urbanum should have for you. As well as that there is a good chance that others are already running scripts somewhere, so maybe you can run it on their clients as well(e.g. Urbanum has a raspberry pi running a few associations).
 
 ## Current implementation
 ![Diagram of current space-state system](https://raw.githubusercontent.com/Urbanum-ry/space-state/master/2023-10-13_Urbanum_Space-state_current.drawio.png)
@@ -20,7 +20,9 @@ Strictly speaking the state_mqtt.py and urbanum_bot.py could be combined into on
 The main goal of this implementation is to make reading out the state more universal, making it so that it can be read out by anyone and thus implemented in a variety of ways. In this example the space-states would be making use of, and thus hooked up, to [SpaceAPI](https://spaceapi.io/), which is just a standardized JSON file and a directory of places using SpaceAPI. As well as a project that I wanted to do, which is making a physical map of the campus, or more likely close up maps of the basements, with the space-states of each room displayed with LED lights. 
 
 
+## Required components for your own installation
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIxODY3NTksLTE2OTEzMDMxNzUsLT
-kxNDQzMjcxM119
+eyJoaXN0b3J5IjpbMjUzODcyNjQ4LC0xNjkxMzAzMTc1LC05MT
+Q0MzI3MTNdfQ==
 -->
