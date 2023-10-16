@@ -7,9 +7,12 @@ The space-state for Urbanum and other associations at the Tampere University is 
 - https://spaceapi.io/
 - https://wiki.hackerspaces.org/
 
-The implementation of the space-states at tuni is slightly throw together, and in the author's opinion incomplete. Nevertheless, this page is meant to describe the system in itss current state, as of the time of writing this, and the author's vision of the completed system. With the information given on this page you should be able to hook up your own room to the space-state system, given you have some experience with electronics and programming, if you don't, just ask someone who does to help, this is a fairly simple project that you should be able to set up within a few hours. Also, if you want your messages to come to the shared telegram channel, you will need credentials, which Urbanum should have for you. As well as that there is a good chance that others are already running scripts somewhere, so maybe you can run it on their clients as well(e.g. Urbanum has a raspberry pi running a few associations).
+The implementation of the space-states at tuni is slightly throw together, and in the author's opinion incomplete. Nevertheless, this page is meant to describe the system in its current state, as of the time of writing this, and the author's vision of the completed system. With the information given on this page you should be able to hook up your own room to the space-state system, given you have some experience with electronics and programming, if you don't, just ask someone who does to help, this is a fairly simple project that you should be able to set up within a few hours. Also, if you want your messages to come to the shared telegram channel, you will need credentials, which Urbanum should have for you. As well as that there is a good chance that others are already running scripts somewhere, so maybe you can run it on their clients as well(e.g. Urbanum has a raspberry pi running a few associations).
+
+## Current implementation
+![Diagra](https://raw.githubusercontent.com/Urbanum-ry/space-state/master/2023-10-13_Urbanum_Space-state_current.drawio.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDQzMjcxM119
+eyJoaXN0b3J5IjpbLTE1MTYwNzYyNywtOTE0NDMyNzEzXX0=
 -->
