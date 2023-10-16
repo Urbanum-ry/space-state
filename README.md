@@ -15,7 +15,9 @@ Strictly speaking the state_mqtt.py and urbanum_bot.py could be combined into on
 
 ## Planned/desired implementation
 ![Diagram of planned/desired space-state system](https://raw.githubusercontent.com/Urbanum-ry/space-state/master/2023-10-13_Urbanum_Space-state_planned_desired.drawio.png)
-The main goal of this implementation is to make reading out the state more universal, making it so that it can be read out by anyone and thus implemented in a variety of ways. In this example the space-states would be making use of, and thus hooked up, to [SpaceAPI](https://spaceapi.io/), which is just a standardized JSON file and a directory of places using SpaceAPI. As well as a project that I wanted to do, which is making a physical map of the campus, or more likely close up maps of the basements, with the space-states of each room displayed with LED lights
+The main goal of this implementation is to make reading out the state more universal, making it so that it can be read out by anyone and thus implemented in a variety of ways. In this example the space-states would be making use of, and thus hooked up, to [SpaceAPI](https://spaceapi.io/), which is just a standardized JSON file and a directory of places using SpaceAPI. As well as a project that I wanted to do, which is making a physical map of the campus, or more likely close up maps of the basements, with the space-states of each room displayed with LED lights. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM2MTA1NDUsLTkxNDQzMjcxM119
+eyJoaXN0b3J5IjpbLTE2OTEzMDMxNzUsLTkxNDQzMjcxM119
 -->
