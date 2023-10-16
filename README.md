@@ -11,11 +11,11 @@ The implementation of the space-states at tuni is slightly throw together, and i
 
 ## Current implementation
 ![Diagram of current space-state system](https://raw.githubusercontent.com/Urbanum-ry/space-state/master/2023-10-13_Urbanum_Space-state_current.drawio.png)
-Strictly speaking the state_mqtt.py and urbanum_bot.py could be combined into one script and the .json file could be removed, but I made it this way to make it easier to change to the planned/desired implementation where the .json file is hosted on a web server. 
+Strictly speaking the state_mqtt.py and urbanum_bot.py could be combined into one script and the JSON file could be removed, but I made it this way to make it easier to change to the planned/desired implementation where the JSON file is hosted on a web server. 
 
 ## Planned/desired implementation
 ![Diagram of planned/desired space-state system](https://raw.githubusercontent.com/Urbanum-ry/space-state/master/2023-10-13_Urbanum_Space-state_planned_desired.drawio.png)
-The main goal of this implementation is to make reading out the state more universal, making it so that it can be read o
+The main goal of this implementation is to make reading out the state more universal, making it so that it can be read out by anyone and thus implemented in a variety of ways. In this example the space-states would be making use of, and thus hooked up, to [SpaceAPI](https://spaceapi.io/), which is just a standardized JSON file that  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDcwNjk5MCwtOTE0NDMyNzEzXX0=
+eyJoaXN0b3J5IjpbMTQzODQ3MzAxMCwtOTE0NDMyNzEzXX0=
 -->
