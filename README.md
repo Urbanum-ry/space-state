@@ -7,13 +7,14 @@ The space-state for Urbanum and other associations at the Tampere University is 
 - https://spaceapi.io/
 - https://wiki.hackerspaces.org/
 
-The implementation of the space-states at tuni is slightly throw together, and in the author's opinion incomplete. Nevertheless, this page is meant to describe the system in its current state, as of the time of writing this, and the author's vision of the completed system. With the information given on this page you should be able to hook up your own room to the space-state system, given you have some experience with electronics and programming, if you don't, just ask someone who does to help, this is a fairly simple project that you should be able to set up within a few hours. Also, if you want your messages to come to the shared telegram channel, you will need credentials, which Urbanum should have for you. As well as that there is a good chance that others are already running scripts somewhere, so maybe you can run it on their clients as well(e.g. Urbanum has a raspberry pi running a few associations).
+The implementation of the space-states at tuni is slightly throw together, and in my(rowan8k) opinion incomplete. Nevertheless, this page is meant to describe the system in its current state, as of the time of writing this, and the author's vision of the completed system. With the information given on this page you should be able to hook up your own room to the space-state system, given you have some experience with electronics and programming, if you don't, just ask someone who does to help, this is a fairly simple project that you should be able to set up within a few hours. Also, if you want your messages to come to the shared telegram channel, you will need credentials, which Urbanum should have for you. As well as that there is a good chance that others are already running scripts somewhere, so maybe you can run it on their clients as well(e.g. Urbanum has a raspberry pi running a few associations).
 
 ## Current implementation
 ![Diagram of current space-state system](https://raw.githubusercontent.com/Urbanum-ry/space-state/master/2023-10-13_Urbanum_Space-state_current.drawio.png)
+Strictly speaking the state_mqtt.py and urbanum_bot.py could be combined into one script and the .json file could be removed, but I 
 
 ## Planned/desired implementation
-![enter image description here](https://raw.githubusercontent.com/Urbanum-ry/space-state/master/2023-10-13_Urbanum_Space-state_planned_desired.drawio.png)
+![Diagram of planned/desired space-state system](https://raw.githubusercontent.com/Urbanum-ry/space-state/master/2023-10-13_Urbanum_Space-state_planned_desired.drawio.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDMyMTAyOSwtOTE0NDMyNzEzXX0=
+eyJoaXN0b3J5IjpbLTEyODg1NDM2MjksLTkxNDQzMjcxM119
 -->
