@@ -25,9 +25,12 @@ The main goal of this implementation is to make reading out the state more unive
 ### Required:
 - Microcontroller to detect door state (E.g. ESP8266)
 - Door switch (can be acquired from Elektori) 
-- System to run python scripts on (you can ask to use Urbanum's) 
-- 
+- System to run python scripts on (you can ask to use Urbanum's or share with someone else) 
+
+### Optional: 
+- Microcontroller housing (3D model for D1 mini ESP8266 can be found in this repo)
+- LED ring to show current state (just for cool looks) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTI2NTUyNywyNTM4NzI2NDgsLTE2OT
+eyJoaXN0b3J5IjpbLTcyMzg3NjMzNywyNTM4NzI2NDgsLTE2OT
 EzMDMxNzUsLTkxNDQzMjcxM119
 -->
