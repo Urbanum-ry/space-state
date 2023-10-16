@@ -22,7 +22,8 @@ The main goal of this implementation is to make reading out the state more unive
 
 ## Required components for your own installation
 
+- Microcontroller to detect door state (
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUzODcyNjQ4LC0xNjkxMzAzMTc1LC05MT
-Q0MzI3MTNdfQ==
+eyJoaXN0b3J5IjpbNDA1NjAzMzY0LDI1Mzg3MjY0OCwtMTY5MT
+MwMzE3NSwtOTE0NDMyNzEzXX0=
 -->
