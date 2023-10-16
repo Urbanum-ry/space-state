@@ -20,10 +20,14 @@ Strictly speaking the state_mqtt.py and urbanum_bot.py could be combined into on
 The main goal of this implementation is to make reading out the state more universal, making it so that it can be read out by anyone and thus implemented in a variety of ways. In this example the space-states would be making use of, and thus hooked up, to [SpaceAPI](https://spaceapi.io/), which is just a standardized JSON file and a directory of places using SpaceAPI. As well as a project that I wanted to do, which is making a physical map of the campus, or more likely close up maps of the basements, with the space-states of each room displayed with LED lights. 
 
 
-## Required components for your own installation
+## Components for your own installation
 
-- Microcontroller to detect door state (
+### Required:
+- Microcontroller to detect door state (E.g. ESP8266)
+- Door switch (can be acquired from Elektori) 
+- System to run python scripts on (you can ask to use Urbanum's) 
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA1NjAzMzY0LDI1Mzg3MjY0OCwtMTY5MT
-MwMzE3NSwtOTE0NDMyNzEzXX0=
+eyJoaXN0b3J5IjpbMTU2MTI2NTUyNywyNTM4NzI2NDgsLTE2OT
+EzMDMxNzUsLTkxNDQzMjcxM119
 -->
